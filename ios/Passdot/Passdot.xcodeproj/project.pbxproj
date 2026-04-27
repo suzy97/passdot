@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ABCA5CD221C4626A8C93FFB = {isa = PBXBuildFile; fileRef = 60C8862B53BB4B4F8CE8AD5D /* PassdotApp.swift */; };
+		3FD5505265FD4AADB4621638 = {isa = PBXBuildFile; fileRef = 015716C774B948518F750853 /* ContentView.swift */; };
+		DB19C6B474E84DD19D9F048E = {isa = PBXBuildFile; fileRef = 8987F4F1ED244E6FB946792C /* PickupStore.swift */; };
+		9556AF6107A446BC9EA91A3D = {isa = PBXBuildFile; fileRef = 22171C3BD62D476BA3E0998C /* DesignTokens.swift */; };
+		6856825D8C4D462BAE575891 = {isa = PBXBuildFile; fileRef = E8A61CBD43B64AEF8B94769C /* YearGridView.swift */; };
+		7E1F372C5A354C63969F07DD = {isa = PBXBuildFile; fileRef = 6C5EBFFA062B453F8CBE0A37 /* BarView.swift */; };
+		796CF3C299FC4D49BFBC2D30 = {isa = PBXBuildFile; fileRef = 4F1E9F77B7D54FF4919A289F /* PassdotWidgets.swift */; };
+		0FD10A52A5A24C288543652A = {isa = PBXBuildFile; fileRef = 9EDFDCA5E70944AEBEED8137 /* Provider.swift */; };
+		CAE50ABF5DB44195B051078D = {isa = PBXBuildFile; fileRef = 7529F5242AC54D39A597F03D /* PickupEntry.swift */; };
+		0F3B6DED1DDD41F99D57C8DC = {isa = PBXBuildFile; fileRef = A0BDF395706240CBAE990294 /* DesignTokens.swift */; };
+		6A383331FCE84E33AB1356AE = {isa = PBXBuildFile; fileRef = 84059F77966747D0BC419A21 /* YearGridView.swift */; };
+		7BD86180BAF94C769D07A2FB = {isa = PBXBuildFile; fileRef = 8CA1E29E886741E7A0422447 /* BarView.swift */; };
+		1F28EC9BAC8A41AE8A85A053 = {isa = PBXBuildFile; fileRef = 30CA59688EE4417CB4F75E89 /* LargeWidgetView.swift */; };
+		F3151C3885E8473682B57DF3 = {isa = PBXBuildFile; fileRef = 8B9EE46ED58C4593A921FF95 /* MediumWidgetView.swift */; };
+		3A07A9CECB3D444881BA673E = {isa = PBXBuildFile; fileRef = DF6935CEDFE7458F9CA6A043 /* SmallWidgetView.swift */; };
+		12ECF31006CA4B35B024CE4D = {isa = PBXBuildFile; fileRef = AE0056A6780A40FB9D4281C2 /* AccessoryRectView.swift */; };
+		D07CC69804264BBF9B060488 = {isa = PBXBuildFile; fileRef = 2B7F5FE5554742F986B0F9D3 /* AccessoryCircularView.swift */; };
+		37C71085ABD04802AA6DC2C5 = {isa = PBXBuildFile; fileRef = 71A04C09E42F4D01BDAFC450 /* Assets.xcassets */; };
+		F2D0A1849E7F4A558084D00C = {isa = PBXBuildFile; fileRef = E6A44491B65C4C6CB7A61147 /* Assets.xcassets */; };
+		998690F416554634A9EA1F5E = {isa = PBXBuildFile; fileRef = 9F00CC20D30742B7A5E91E09 /* PassdotWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA7C505120114EFF83BBC251 = {isa = PBXBuildFile; fileRef = 3E5942A4813941BAAC9CFE0F /* WidgetKit.framework */; };
+		1A6D774E91244420BE97813D = {isa = PBXBuildFile; fileRef = 289DA69D105248618EB0C119 /* SwiftUI.framework */; };
+		3872CA91C1104B30BF79756D = {isa = PBXBuildFile; fileRef = 35F410AC622D4ADD976FF7FD /* SwiftUI.framework */; };
+/* End PBXBuildFile section */
+
+
+/* Begin PBXContainerItemProxy section */
+
+		70818F6788A741D9BE232429 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A474278635304ED1B99C9519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B3F5E7115542F8A979CA8F;
+			remoteInfo = PassdotWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+
+/* Begin PBXCopyFilesBuildPhase section */
+
+		9BC6E85C789949DD9414A6CE = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				998690F416554634A9EA1F5E /* PassdotWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+
+/* Begin PBXFileReference section */
+		60C8862B53BB4B4F8CE8AD5D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PassdotApp.swift"; path = "Passdot/PassdotApp.swift"; sourceTree = "<group>"; };
+		015716C774B948518F750853 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContentView.swift"; path = "Passdot/ContentView.swift"; sourceTree = "<group>"; };
+		8987F4F1ED244E6FB946792C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PickupStore.swift"; path = "Passdot/PickupStore.swift"; sourceTree = "<group>"; };
+		22171C3BD62D476BA3E0998C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DesignTokens.swift"; path = "Passdot/DesignTokens.swift"; sourceTree = "<group>"; };
+		E8A61CBD43B64AEF8B94769C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "YearGridView.swift"; path = "Passdot/YearGridView.swift"; sourceTree = "<group>"; };
+		6C5EBFFA062B453F8CBE0A37 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BarView.swift"; path = "Passdot/BarView.swift"; sourceTree = "<group>"; };
+		4F1E9F77B7D54FF4919A289F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PassdotWidgets.swift"; path = "PassdotWidgets/PassdotWidgets.swift"; sourceTree = "<group>"; };
+		9EDFDCA5E70944AEBEED8137 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Provider.swift"; path = "PassdotWidgets/Provider.swift"; sourceTree = "<group>"; };
+		7529F5242AC54D39A597F03D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PickupEntry.swift"; path = "PassdotWidgets/PickupEntry.swift"; sourceTree = "<group>"; };
+		A0BDF395706240CBAE990294 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DesignTokens.swift"; path = "PassdotWidgets/DesignTokens.swift"; sourceTree = "<group>"; };
+		84059F77966747D0BC419A21 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "YearGridView.swift"; path = "PassdotWidgets/YearGridView.swift"; sourceTree = "<group>"; };
+		8CA1E29E886741E7A0422447 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BarView.swift"; path = "PassdotWidgets/BarView.swift"; sourceTree = "<group>"; };
+		30CA59688EE4417CB4F75E89 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LargeWidgetView.swift"; path = "PassdotWidgets/LargeWidgetView.swift"; sourceTree = "<group>"; };
+		8B9EE46ED58C4593A921FF95 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MediumWidgetView.swift"; path = "PassdotWidgets/MediumWidgetView.swift"; sourceTree = "<group>"; };
+		DF6935CEDFE7458F9CA6A043 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SmallWidgetView.swift"; path = "PassdotWidgets/SmallWidgetView.swift"; sourceTree = "<group>"; };
+		AE0056A6780A40FB9D4281C2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AccessoryRectView.swift"; path = "PassdotWidgets/AccessoryRectView.swift"; sourceTree = "<group>"; };
+		2B7F5FE5554742F986B0F9D3 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AccessoryCircularView.swift"; path = "PassdotWidgets/AccessoryCircularView.swift"; sourceTree = "<group>"; };
+		71A04C09E42F4D01BDAFC450 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Passdot/Assets.xcassets"; sourceTree = "<group>"; };
+		E6A44491B65C4C6CB7A61147 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "PassdotWidgets/Assets.xcassets"; sourceTree = "<group>"; };
+		AFD6E73CC19D4B30947ECCE2 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passdot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00CC20D30742B7A5E91E09 = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PassdotWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5942A4813941BAAC9CFE0F = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		289DA69D105248618EB0C119 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		35F410AC622D4ADD976FF7FD = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+
+/* Begin PBXFrameworksBuildPhase section */
+
+		7A96483E22D14C7F9369571C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D774E91244420BE97813D /* in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1503BCE74E4DB181F7EBE4 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7C505120114EFF83BBC251 /* in Frameworks */,
+				3872CA91C1104B30BF79756D /* in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+
+/* Begin PBXGroup section */
+
+		265DEC4EFD204C57912911B9 = {
+			isa = PBXGroup;
+			children = (
+				F26859002C574E8ABF9ED92F /* Passdot */,
+				466017D4E0AE48789199766E /* PassdotWidgets */,
+				174546926366437DA5065412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26859002C574E8ABF9ED92F = {
+			isa = PBXGroup;
+			children = (
+				60C8862B53BB4B4F8CE8AD5D /* PassdotApp.swift */,
+				015716C774B948518F750853 /* ContentView.swift */,
+				8987F4F1ED244E6FB946792C /* PickupStore.swift */,
+				22171C3BD62D476BA3E0998C /* DesignTokens.swift */,
+				E8A61CBD43B64AEF8B94769C /* YearGridView.swift */,
+				6C5EBFFA062B453F8CBE0A37 /* BarView.swift */,
+				71A04C09E42F4D01BDAFC450 /* Assets.xcassets */,
+			);
+			name = Passdot;
+			sourceTree = "<group>";
+		};
+		466017D4E0AE48789199766E = {
+			isa = PBXGroup;
+			children = (
+				4F1E9F77B7D54FF4919A289F /* PassdotWidgets.swift */,
+				9EDFDCA5E70944AEBEED8137 /* Provider.swift */,
+				7529F5242AC54D39A597F03D /* PickupEntry.swift */,
+				A0BDF395706240CBAE990294 /* DesignTokens.swift */,
+				84059F77966747D0BC419A21 /* YearGridView.swift */,
+				8CA1E29E886741E7A0422447 /* BarView.swift */,
+				30CA59688EE4417CB4F75E89 /* LargeWidgetView.swift */,
+				8B9EE46ED58C4593A921FF95 /* MediumWidgetView.swift */,
+				DF6935CEDFE7458F9CA6A043 /* SmallWidgetView.swift */,
+				AE0056A6780A40FB9D4281C2 /* AccessoryRectView.swift */,
+				2B7F5FE5554742F986B0F9D3 /* AccessoryCircularView.swift */,
+				E6A44491B65C4C6CB7A61147 /* Assets.xcassets */,
+			);
+			name = PassdotWidgets;
+			sourceTree = "<group>";
+		};
+		174546926366437DA5065412 = {
+			isa = PBXGroup;
+			children = (
+				AFD6E73CC19D4B30947ECCE2 /* Passdot.app */,
+				9F00CC20D30742B7A5E91E09 /* PassdotWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+
+/* End PBXGroup section */
+
+
+/* Begin PBXNativeTarget section */
+
+		EB8FF3CD64BD499793287C99 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27C7E40BFAE4F708A66CB47 /* Build configuration list for PBXNativeTarget "Passdot" */;
+			buildPhases = (
+				A7470FD7F1D24506A035752B /* Sources */,
+				7A96483E22D14C7F9369571C /* Frameworks */,
+				538C795FF1124BA2859138CB /* Resources */,
+				9BC6E85C789949DD9414A6CE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FCD816F4A7F40939BBF8B55 /* PBXTargetDependency */,
+			);
+			name = Passdot;
+			productName = Passdot;
+			productReference = AFD6E73CC19D4B30947ECCE2 /* Passdot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77B3F5E7115542F8A979CA8F = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD575ED17774259A781D9A7 /* Build configuration list for PBXNativeTarget "PassdotWidgets" */;
+			buildPhases = (
+				2A7023D884944A7F9BC587E0 /* Sources */,
+				EC1503BCE74E4DB181F7EBE4 /* Frameworks */,
+				B5139EEBC69F4A8CB148E820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassdotWidgets;
+			productName = PassdotWidgets;
+			productReference = 9F00CC20D30742B7A5E91E09 /* PassdotWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+
+/* Begin PBXProject section */
+
+		A474278635304ED1B99C9519 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EB8FF3CD64BD499793287C99 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					77B3F5E7115542F8A979CA8F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4D4FDA8CAB29437CB1128FF4 /* Build configuration list for PBXProject "Passdot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265DEC4EFD204C57912911B9;
+			productRefGroup = 174546926366437DA5065412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8FF3CD64BD499793287C99 /* Passdot */,
+				77B3F5E7115542F8A979CA8F /* PassdotWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+
+/* Begin PBXResourcesBuildPhase section */
+
+		538C795FF1124BA2859138CB = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C71085ABD04802AA6DC2C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5139EEBC69F4A8CB148E820 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D0A1849E7F4A558084D00C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+
+/* Begin PBXSourcesBuildPhase section */
+
+		A7470FD7F1D24506A035752B = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABCA5CD221C4626A8C93FFB /* PassdotApp.swift in Sources */,
+				3FD5505265FD4AADB4621638 /* ContentView.swift in Sources */,
+				DB19C6B474E84DD19D9F048E /* PickupStore.swift in Sources */,
+				9556AF6107A446BC9EA91A3D /* DesignTokens.swift in Sources */,
+				6856825D8C4D462BAE575891 /* YearGridView.swift in Sources */,
+				7E1F372C5A354C63969F07DD /* BarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7023D884944A7F9BC587E0 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796CF3C299FC4D49BFBC2D30 /* PassdotWidgets.swift in Sources */,
+				0FD10A52A5A24C288543652A /* Provider.swift in Sources */,
+				CAE50ABF5DB44195B051078D /* PickupEntry.swift in Sources */,
+				0F3B6DED1DDD41F99D57C8DC /* DesignTokens.swift in Sources */,
+				6A383331FCE84E33AB1356AE /* YearGridView.swift in Sources */,
+				7BD86180BAF94C769D07A2FB /* BarView.swift in Sources */,
+				1F28EC9BAC8A41AE8A85A053 /* LargeWidgetView.swift in Sources */,
+				F3151C3885E8473682B57DF3 /* MediumWidgetView.swift in Sources */,
+				3A07A9CECB3D444881BA673E /* SmallWidgetView.swift in Sources */,
+				12ECF31006CA4B35B024CE4D /* AccessoryRectView.swift in Sources */,
+				D07CC69804264BBF9B060488 /* AccessoryCircularView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+
+/* Begin PBXTargetDependency section */
+
+		5FCD816F4A7F40939BBF8B55 = {
+			isa = PBXTargetDependency;
+			target = 77B3F5E7115542F8A979CA8F /* PassdotWidgets */;
+			targetProxy = 70818F6788A741D9BE232429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+
+/* Begin XCBuildConfiguration section */
+
+		F75C7E2E612B44E6A182AF32 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		30CEFEF55B2849B4BB31F56F = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = ;
+			};
+			name = Release;
+		};
+		FBDAB1803A894D0B9E185740 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTCAT_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passdot.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-ONONE";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		FA17D700BE4C40B5AC47614C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTCAT_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passdot.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-WHOLE_MODULE";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		17D6B3AD015B420193A11419 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSExtension = {NSExtensionPointIdentifier = "com.apple.widgetkit-extension"; };
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passdot.app.PassdotWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-ONONE";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		C8F3B5326A304F43A7B99AF4 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSExtension = {NSExtensionPointIdentifier = "com.apple.widgetkit-extension"; };
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.passdot.app.PassdotWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-WHOLE_MODULE";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+
+/* Begin XCConfigurationList section */
+
+		4D4FDA8CAB29437CB1128FF4 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75C7E2E612B44E6A182AF32 /* Debug */,
+				30CEFEF55B2849B4BB31F56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27C7E40BFAE4F708A66CB47 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDAB1803A894D0B9E185740 /* Debug */,
+				FA17D700BE4C40B5AC47614C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD575ED17774259A781D9A7 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D6B3AD015B420193A11419 /* Debug */,
+				C8F3B5326A304F43A7B99AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A474278635304ED1B99C9519 /* Project object */;
+}

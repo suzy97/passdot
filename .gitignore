@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+*.DS_Store
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+.build/
+
+# Node / web prototype
+node_modules/
+.cache/
+
+# Claude internal
+.claude/
