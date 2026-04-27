@@ -19,3 +19,5 @@ node_modules/
 
 # Claude internal
 .claude/
+*.xcworkspace/xcuserdata/
+ios/Passdot/Passdot.xcodeproj/project.xcworkspace/
